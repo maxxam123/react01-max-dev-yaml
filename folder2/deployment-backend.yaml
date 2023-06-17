@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: react01-back
-        image: hennighausen/react01-max-dev-backend:v1
+        image: hennighausen/react01-max-dev-backend:v1 
         ports:
         - containerPort: 4000
