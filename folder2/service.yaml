@@ -1,0 +1,14 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: react01-front
+spec:
+  type: NodePort
+  selector:
+    app: react01-front
+  ports:
+    - port: 3000
+      targetPort: 3000
+#      nodePort: 31000
+      nodePort: 30101
+      nodePort: 30103
