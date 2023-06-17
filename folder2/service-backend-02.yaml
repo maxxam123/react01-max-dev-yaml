@@ -9,5 +9,5 @@ spec:
   selector:
     app: react01-back
   ports:
-  - port: 4000
-    targetPort: 4000
+  - port: 8800
+    targetPort: 8800
